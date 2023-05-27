@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+}
+
+#form-section {
+    width: calc(60% - 1px);
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+}
+
+#submit{
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+label{
+    font-size: large;
+}
+
+#student-from>*{
+    margin: 50px;
+}
+
+#list-section {
+    width: 40%;
+    height: 100vh;
+}
+
+#line{
+    height: 100vh;
+    width: 1px;
+    background: black;
+}
+
+ul {
+    list-style: none;
+    padding: 4px;
+    margin: 0;
+}
+
+.listItem{
+    font-size: larger;
+    box-sizing: border-box;
+    padding: 12px 20px;
+}
+
+.greybg {
+    background: lightgrey;
+}
+
+span {
+    padding: 0 10px;
+    color: white;
+    background: green;
+}
+
+body {
+    display: flex;
+}

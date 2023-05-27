@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js">
+    </script>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+
+<body>
+    <section id="form-section">
+        <form id="student-from" action="/">
+            <h1>Add Student Details</h1>
+            <label for="frno">Roll no.</label>
+            <input type="number" id="frno" name="frno"><br>
+
+            <label for="fname">Name</label>
+            <input type="text" id="fname" name="fname"><br>
+
+            <label for="fmarks">Marks</label>
+            <input type="number" id="fmarks" name="fmarks"><br>
+            <input type="submit" value="Add Details" id="submit">
+        </form>
+    </section>
+    <div id="line"></div>
+    <section id="list-section">
+        <ul id="list">
+            <!-- <li class="listItem greybg">
+                <p>
+                    Roll no - <span>1</span> ,
+                    <span>Naman</span> has Scored
+                    <span>50</span> Marks
+                </p>
+            </li> -->
+        </ul>
+    </section>
+    <script src="./index.js"></script>
+</body>
+
+</html>
