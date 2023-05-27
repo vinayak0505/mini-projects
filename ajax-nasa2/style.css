@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+}
+
+#top-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 30vh;
+    width: 100vw;
+    background-image: linear-gradient(to right, #F0FFFF, #FFFAF1);
+}
+
+#bottom-section {
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+img{
+    width: 250px;
+    height: 250px;
+}
