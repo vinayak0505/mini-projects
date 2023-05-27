@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#get-course {
+    background-color: aliceblue;
+    margin-top: 10%;
+    padding: 20px;
+}
+
+#button {
+    margin-top: 30px;
+    padding: 10px 50px;
+}
+
+#content {
+    display: flex;
+    width: 98vw;
+    height: 100vh;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 0;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 280px;
+    height: min-content;
+}
+
+.card-title{
+    margin: 9;
+}
+.card-img-top{
+    height: 200px;
+}
+
+.card-text {
+    text-align: end;
+}
